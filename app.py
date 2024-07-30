@@ -61,5 +61,5 @@ def db_select():
        for attribute in player:
            response_string += "<td>" + str(attribute) + "</td>"
        response_string += "</tr>"
-       response_string += "</table>"
+   response_string += "</table>"
    return response_string
