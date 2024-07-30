@@ -12,7 +12,7 @@ def db_test():
    conn.close()
    return 'Database connection successful'
 
-@app.route('db_create')
+@app.route('/db_create')
 def db_create():
    conn = psycopg2.connect("postgresql://sparkyyc_db_user:v0J6Bm3YGWmxYFcWuSmckXaRXohUyh3P@dpg-cqk3hujqf0us73c29050-a/sparkyyc_db")
    cur = conn.cursor()
